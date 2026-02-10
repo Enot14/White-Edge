@@ -9,11 +9,7 @@ extern Character yuki;
 extern Character Max;
 extern Character anna;
 extern Character voice_in_head;
-/*Character meisen;
-Character yuki;
-Character Max;
-Character anna;
-Character voice_in_head;*/
+
 inline void inicializate_characters() {
     meisen.name = "Мейсен";
     meisen.voisePitch = 150;
@@ -39,5 +35,6 @@ inline void inicializate_characters() {
     voice_in_head.voice_path = "music\\";
     voice_in_head.colorCode = 0x0004;
 }
+
 
 #endif
